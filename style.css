@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: white;
+    color: gray;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0, 1);
+}
+
+#budget-value {
+    color: green;
+    font-weight: bold;
+}
+
+#expenses-value {
+    color: red;
+    font-weight: bold;
+}
+
+#balance-value {
+    color: black;
+    font-weight: bold;
+}
+
+h1,
+h2 {
+    text-align: center;
+    color: gray;
+    margin-top: 20px;
+}
+
+.input-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 600px;
+    border-radius: 8px;
+}
+
+.input-section label {
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.input-section input[type="number"],
+.input-section input[type="date"] {
+    padding: 8px;
+    margin-right: 10px;
+    border: 1px solid white;
+    border-radius: 4px;
+    font-size: 16px;
+    width: calc(100% - 16px);
+    max-width: 200px;
+    background-color: white;
+    color: gray;
+    appearance: none;
+}
+
+.input-section button {
+    padding: 5px 10px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.input-section button:hover {
+    background-color: green;
+}
+
+.expenses-list {
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0, 1);
+    border-radius: 8px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th,
+td {
+    border: 1px solid white;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: green;
+    color: white;
+}
+
+tfoot td {
+    font-weight: bold;
+    background-color: white;
+}
+
+.delete-btn {
+    padding: 5px 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.delete-btn:hover {
+    background-color: red;
+}

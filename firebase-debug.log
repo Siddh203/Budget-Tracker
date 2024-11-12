@@ -1,0 +1,45 @@
+[debug] [2024-11-10T12:43:14.130Z] ----------------------------------------------------------------------
+[debug] [2024-11-10T12:43:14.160Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2024-11-10T12:43:14.160Z] CLI Version:   13.24.2
+[debug] [2024-11-10T12:43:14.161Z] Platform:      darwin
+[debug] [2024-11-10T12:43:14.161Z] Node Version:  v22.11.0
+[debug] [2024-11-10T12:43:14.161Z] Time:          Sun Nov 10 2024 05:43:14 GMT-0700 (Mountain Standard Time)
+[debug] [2024-11-10T12:43:14.162Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-11-10T12:43:14.450Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-11-10T12:43:14.451Z] > authorizing via signed-in user (siddhp203@gmail.com)
+[debug] [2024-11-10T12:43:14.452Z] [iam] checking project budget-tracker-f3758 for permissions ["firebase.projects.get"]
+[debug] [2024-11-10T12:43:14.453Z] Checked if tokens are valid: true, expires at: 1731245501623
+[debug] [2024-11-10T12:43:14.453Z] Checked if tokens are valid: true, expires at: 1731245501623
+[debug] [2024-11-10T12:43:14.457Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/budget-tracker-f3758:testIamPermissions [none]
+[debug] [2024-11-10T12:43:14.458Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/budget-tracker-f3758:testIamPermissions x-goog-quota-user=projects/budget-tracker-f3758
+[debug] [2024-11-10T12:43:14.458Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/budget-tracker-f3758:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2024-11-10T12:43:14.690Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/budget-tracker-f3758:testIamPermissions 200
+[debug] [2024-11-10T12:43:14.690Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/budget-tracker-f3758:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2024-11-10T12:43:14.691Z] Checked if tokens are valid: true, expires at: 1731245501623
+[debug] [2024-11-10T12:43:14.692Z] Checked if tokens are valid: true, expires at: 1731245501623
+[debug] [2024-11-10T12:43:14.692Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/budget-tracker-f3758 [none]
+[debug] [2024-11-10T12:43:14.949Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/budget-tracker-f3758 200
+[debug] [2024-11-10T12:43:14.950Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/budget-tracker-f3758 {"projectId":"budget-tracker-f3758","projectNumber":"574833982431","displayName":"Budget Tracker","name":"projects/budget-tracker-f3758","resources":{"hostingSite":"budget-tracker-f3758"},"state":"ACTIVE","etag":"1_40676136-69fc-47c3-a885-d0afac31b82f"}
+[info] 
+[info] === Serving from '/Users/shreeji/Documents/Budget Tracker'...
+[info] 
+[debug] [2024-11-10T12:43:14.955Z] Checked if tokens are valid: true, expires at: 1731245501623
+[debug] [2024-11-10T12:43:14.955Z] Checked if tokens are valid: true, expires at: 1731245501623
+[debug] [2024-11-10T12:43:14.955Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/budget-tracker-f3758/sites 
+[debug] [2024-11-10T12:43:15.697Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/budget-tracker-f3758/sites 200
+[debug] [2024-11-10T12:43:15.698Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/budget-tracker-f3758/sites {"sites":[{"name":"projects/budget-tracker-f3758/sites/budget-tracker-f3758","defaultUrl":"https://budget-tracker-f3758.web.app","type":"DEFAULT_SITE"}]}
+[debug] [2024-11-10T12:43:15.698Z] Checked if tokens are valid: true, expires at: 1731245501623
+[debug] [2024-11-10T12:43:15.698Z] Checked if tokens are valid: true, expires at: 1731245501623
+[debug] [2024-11-10T12:43:15.698Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/budget-tracker-f3758/webApps/-/config [none]
+[debug] [2024-11-10T12:43:16.100Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/budget-tracker-f3758/webApps/-/config 200
+[debug] [2024-11-10T12:43:16.100Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/budget-tracker-f3758/webApps/-/config {"projectId":"budget-tracker-f3758","storageBucket":"budget-tracker-f3758.firebasestorage.app","apiKey":"AIzaSyD93JBn6nIsXlAspUKCwFAvoJs9aNWWo-E","authDomain":"budget-tracker-f3758.firebaseapp.com","messagingSenderId":"574833982431"}
+[debug] [2024-11-10T12:43:16.125Z] Checked if tokens are valid: true, expires at: 1731245501623
+[debug] [2024-11-10T12:43:16.125Z] Checked if tokens are valid: true, expires at: 1731245501623
+[debug] [2024-11-10T12:43:16.126Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/budget-tracker-f3758 [none]
+[debug] [2024-11-10T12:43:16.378Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/budget-tracker-f3758 200
+[debug] [2024-11-10T12:43:16.378Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/budget-tracker-f3758 {"projectId":"budget-tracker-f3758","projectNumber":"574833982431","displayName":"Budget Tracker","name":"projects/budget-tracker-f3758","resources":{"hostingSite":"budget-tracker-f3758"},"state":"ACTIVE","etag":"1_40676136-69fc-47c3-a885-d0afac31b82f"}
+[info] i  hosting[budget-tracker-f3758]: Serving hosting files from: public {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mpublic\u001b[22m"}}
+[info] ✔  hosting[budget-tracker-f3758]: Local server: http://localhost:5002 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5002\u001b[22m\u001b[24m"}}
+[info] i  hosting: ::1 - - [10/Nov/2024:12:44:05 +0000] "GET / HTTP/1.1" 500 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0.1 Safari/605.1.15" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [10/Nov/2024:12:44:05 +0000] \"GET / HTTP/1.1\" 500 - \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0.1 Safari/605.1.15\""}}
+[info] i  hosting: ::1 - - [10/Nov/2024:12:44:06 +0000] "GET /favicon.ico HTTP/1.1" 500 - "http://localhost:5002/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0.1 Safari/605.1.15" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [10/Nov/2024:12:44:06 +0000] \"GET /favicon.ico HTTP/1.1\" 500 - \"http://localhost:5002/\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0.1 Safari/605.1.15\""}}
